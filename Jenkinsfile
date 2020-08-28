@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Clean Directory') {
       steps {
-        sh 'rm -rf /huongdanjava.com_master/'
+        sh 'rm -rf *'
       }
     }
 
