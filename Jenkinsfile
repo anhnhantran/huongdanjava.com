@@ -15,7 +15,7 @@ pipeline {
 
     stage('Build') {
       steps {
-        sh 'mvn clean install -f huongdanjava.com/spring-boot-internalresourceviewresolver/pom.xml'
+        sh 'mvn clean install -f huongdanjava.com/spring-helloworld/pom.xml'
       }
     }
 
