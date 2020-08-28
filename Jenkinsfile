@@ -3,7 +3,7 @@ pipeline {
   stages {
     stage('Clone Git') {
       steps {
-        sh '''rm -rf huongdanjava.com_master
+        sh '''rm -rf /huongdanjava.com_master/
 git clone https://github.com/anhnhantran/huongdanjava.com.git'''
       }
     }
