@@ -7,5 +7,11 @@ pipeline {
       }
     }
 
+    stage('Build') {
+      steps {
+        sh 'mvn clean install -f huongdanjava.com_master/spring-boot-internalresourceviewresolver/pom.xml'
+      }
+    }
+
   }
 }
